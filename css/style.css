@@ -1,0 +1,239 @@
+body {
+  /* font-family: 'Lato', sans-serif !important; */
+}
+.top-nav {
+  width: 100%; height: 30px;
+  font-size: 0.7em;
+  color:white;
+  background-color: rgb(85, 65, 95);
+}
+.top-nav a {color: white;}
+.navbar {height: 130px}
+.navbar-brand {
+  font-size: 26px;
+  color: black;
+}
+.nav-brand-con p {
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+}
+.navbar-nav {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  font-size: 0.86em;
+  color: #333333;
+}
+.navbar-nav a:hover {
+  border-bottom: 0.2px solid rgb(85, 65, 95);
+  padding-bottom:
+}
+.grayed {
+  background-color: rgb(235, 235, 235);
+}
+.card-no-bord {
+  border: 0 !important;
+}
+.jumbotron {
+  background-color: transparent;
+}
+.jumbotron h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  color: #333333;
+}
+.jumbotron p {
+  font-size: 1rem;
+  color: #999999;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #55415f;
+  border-color: #55415f;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #3a2147;
+  border-color: #3a2147;
+}
+
+.btn-dark:focus, .btn-dark.focus {
+  box-shadow: 0 0 0 0.2rem #3a2147;
+}
+
+.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
+.show > .btn-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #3a2147;
+  border-color: #3a2147;
+}
+
+.btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #3a2147;
+}
+
+.img-border {
+  border: 20px solid black;
+  border-top-left-radius: calc(0.7rem - 1px);
+  border-top-right-radius: calc(0.7rem - 1px);
+}
+.carousel {
+  margin-top: 30px;
+}
+.w43 {
+  width: 100%; height: 43px;
+  padding: 0;
+  border-bottom-left-radius: calc(0.7rem - 1px);
+  border-bottom-right-radius: calc(0.7rem - 1px);
+  background: linear-gradient(to right, rgba(131,123,123,1) 0%, rgba(192,188,184,1) 49%, rgba(220,222,217,1) 100%);
+}
+.h103 {
+  width: 103px; height: 7px;
+  padding: 0;
+  background: linear-gradient(to bottom, rgba(103,95,98,1) 1%, rgba(145,138,137,1) 50%, rgba(206,202,197,1) 100%);
+}
+
+.c-img-w {
+  display: block;
+}
+.cardh4 {
+  font-size: 1.125rem;
+  text-align: center;
+  color: #55415f;
+}
+.cardp {
+  font-size: 0.8125rem;
+  line-height: 1.8;
+  color: #807d77;
+}
+.cardp-c {
+  text-align: center;
+}
+.dropdown-divider2 {
+  border-top: 1px solid #d7d7d7;
+}
+.carousel-padd {
+  padding-top: 30px ;
+
+}
+.container-fluid {
+ width: 96.94%
+}
+.card {
+  border:none;
+}
+
+/* ************************************************ */
+.carousel-control-prev1,
+.carousel-control-next1 {
+  position: absolute;
+  top: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  text-align: center;
+  opacity: 0.5;
+}
+.carousel-control-prev1:hover, .carousel-control-prev1:focus,
+.carousel-control-next1:hover,
+.carousel-control-next1:focus {
+  color: red;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+.carousel-control-prev1 {
+  left: 0;
+}
+.carousel-control-next1 {
+  right: 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+.carousel-control-prev-icon1,
+.carousel-control-next-icon1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+/* ************************************************ */
+.jumbotron h3 {
+  font-size: 1.125rem;
+  line-height: 2;
+  text-align: center;
+  color: #222222;
+}
+.jumb-padd {
+  padding: 2rem 2rem;
+}
+
+.cardh3 {
+  font-size: 1.125rem;
+  color: #7f7d77;
+}
+.readmore a {
+  font-size: 0.8125rem;
+  color: #55415f;
+}
+.bg-transparent > .card-body > .card-title {
+  color: white;
+}
+.p10 {
+  font-size: 0.625rem;
+  color: #807d77;
+}
+.footerh4 {
+  font-size: 0.8125rem;
+  color: #9f81a9;
+}
+
+.link-pur a {
+  display: block;
+  font-size: 0.75rem;
+  color: #9f80a9;
+}
+
+.card-link2 {
+  text-decoration: none;
+  margin-left: 0;
+  padding-bottom: 0.75rem;
+}
+.card-link2 span {
+  color: white;
+}
+
+.cardp > p > span {
+  color: #9f81a9;
+}
+.cardp > p {
+  margin-bottom: 0;
+}
+address {
+  margin-bottom: 0;
+}
+
+.form-control {
+  background-color: #353535;
+  border: 0;
+}
+.form-control:focus {
+  background-color: #353535;
+  border: 0;
+  box-shadow: 0;
+}
+
+.pink {
+  background-color: #9f81a9;
+}
